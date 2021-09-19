@@ -23,8 +23,9 @@ function filterNames(){
         if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
             names[i].style.display = '';
 
-        }else{
+        } else {
             names[i].style.display = 'none';
+            console.log('No results found')
         }
     }
 
